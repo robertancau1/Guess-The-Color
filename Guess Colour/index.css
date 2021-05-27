@@ -1,0 +1,75 @@
+.circle{
+    border-radius: 15px;
+    width: 150px;
+    height:150px;
+    float:left;
+    position:relative;
+    top:350px;
+    margin: 20px;
+    border: 3px white solid;
+    transition: 0.5s;
+}
+.square{
+    border-radius: 15px;
+    width: 150px;
+    height:150px;
+    float:left;
+    position:relative;
+    margin: 20px;
+    border: 3px white solid;
+    top:-50px;
+    transition: 0.5s;
+}
+#mainbox{
+    background-color:rgb(35,35,35);
+    width:980px;
+    height:600px;
+    position:relative;
+    top:250px;
+    margin: 0 auto;
+    border-radius:20px;
+}
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/715673318098731078/755431204098015262/background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+#easy{
+    color:white;
+    width:70px;
+    height:20px;
+    background-color: blue;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+}
+#hard{
+    color:white;
+    width:70px;
+    height:20px;
+    background-color: blue;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+}
+#hard:hover{
+    background-color:  white;
+    color:black;
+}
+#easy:hover{
+    background-color:  white;
+    color:black;
+}
+#rgb-code{
+    width:300px;
+    height: 50px;
+    background-color: blue;
+    color:white;
+    margin:0 auto;
+    text-align:center;
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
